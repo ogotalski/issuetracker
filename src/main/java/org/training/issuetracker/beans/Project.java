@@ -1,15 +1,19 @@
 package org.training.issuetracker.beans;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class Project {
 	private String name;
 	private String description;
-	private String build;
+	private List<String> builds;
 	private User Manager;
 	public Project(String name, String description, String build, User manager) {
 		super();
 		this.name = name;
 		this.description = description;
-		this.build = build;
+		this.builds = new ArrayList<String>(); 
+					builds.add(build);
 		Manager = manager;
 	}
 	public String getName() {
@@ -24,11 +28,11 @@ public class Project {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getBuild() {
-		return build;
+	public List<String> getBuilds() {
+		return builds;
 	}
-	public void setBuild(String build) {
-		this.build = build;
+	public void addBuild(String build) {
+		this.builds.add(build);
 	}
 	public User getManager() {
 		return Manager;

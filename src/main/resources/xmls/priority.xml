@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:property xmlns:tns="http://www.example.org/issueProperty"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/issueProperty issueProperty.xsd ">tns:property</tns:property>
+<tns:properties>
+	<tns:property>
+		<id>1</id>
+		<name>high</name>
+	</tns:property>
+	<tns:property>
+		<id>4</id>
+		<name>med</name>
+	</ptns:roperty>
+	<tns:property>
+		<id>2</id>
+		<name>low</name>
+	</tns:property>
+</tns:properties>
+</xml>
